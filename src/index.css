@@ -1,0 +1,68 @@
+@import "tailwindcss";
+
+/* Claude Design System — Dark (default) */
+:root {
+  --bg-primary: #282526;
+  --bg-surface: #312E2F;
+  --bg-elevated: #3B3839;
+  --text-primary: #F0EBE3;
+  --text-secondary: #A9A29A;
+  --text-tertiary: #7D766F;
+  --border-color: #3A3637;
+  --icon-active: #F0EBE3;
+  --icon-inactive: #635D57;
+  --highlight-green: #2A3D2E;
+}
+
+/* Claude Design System — Light */
+[data-theme="light"] {
+  --bg-primary: #FAF6F0;
+  --bg-surface: #F0EBE3;
+  --bg-elevated: #FFFFFF;
+  --text-primary: #1A1816;
+  --text-secondary: #635D57;
+  --text-tertiary: #8C857E;
+  --border-color: #E0DAD1;
+  --icon-active: #1A1816;
+  --icon-inactive: #A9A29A;
+  --highlight-green: #E6F2E8;
+}
+
+@layer base {
+  *, *::before, *::after {
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  html, body, #root {
+    height: 100%;
+    background: var(--bg-primary);
+  }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  ::-webkit-scrollbar {
+    display: none;
+  }
+
+  button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font: inherit;
+    color: inherit;
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+}
