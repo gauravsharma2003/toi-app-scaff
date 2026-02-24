@@ -142,7 +142,7 @@ const ArticlePage = () => {
       </div>
 
       {/* Bottom Action Bar */}
-      <div className="fixed bottom-0 left-1/2 -translate-x-1/2 w-full max-w-[430px] bg-[var(--bg-surface)] border-t border-[var(--border-color)] z-50">
+      <div className="fixed bottom-0 left-1/2 -translate-x-1/2 w-full max-w-[430px] bg-[var(--bg-surface)] border-t border-[var(--border-color)] z-50" style={{ paddingBottom: 'env(safe-area-inset-bottom, 0px)' }}>
         <div className="flex items-center justify-between px-5 py-3">
           <button onClick={() => navigate(-1)} className="p-1">
             <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--icon-active)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">

@@ -38,6 +38,18 @@
   html, body, #root {
     height: 100%;
     background: var(--bg-primary);
+    overflow: hidden;
+  }
+
+  html {
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+  }
+
+  #root {
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
   }
 
   body {

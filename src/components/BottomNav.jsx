@@ -8,7 +8,7 @@ const BottomNav = () => {
   const isHome = location.pathname === '/';
 
   return (
-    <div className="fixed bottom-0 left-1/2 -translate-x-1/2 w-full max-w-[430px] z-50">
+    <div className="fixed bottom-0 left-1/2 -translate-x-1/2 w-full max-w-[430px] z-50" style={{ paddingBottom: 'env(safe-area-inset-bottom, 0px)' }}>
       {/* Sticky ad banner above nav */}
       <div className="h-[48px] bg-[var(--bg-elevated)] flex items-center justify-between px-3 overflow-hidden">
         <div className="flex items-center gap-1">
