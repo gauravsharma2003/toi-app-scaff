@@ -2,16 +2,16 @@
 
 /* Claude Design System — Dark (default) */
 :root {
-  --bg-primary: #282526;
-  --bg-surface: #312E2F;
-  --bg-elevated: #3B3839;
-  --text-primary: #F0EBE3;
-  --text-secondary: #A9A29A;
-  --text-tertiary: #7D766F;
-  --border-color: #3A3637;
-  --icon-active: #F0EBE3;
-  --icon-inactive: #635D57;
-  --highlight-green: #2A3D2E;
+  --bg-primary: #18181b;
+  --bg-surface: #1f1f23;
+  --bg-elevated: #27272a;
+  --text-primary: #fafafa;
+  --text-secondary: #a1a1aa;
+  --text-tertiary: #71717a;
+  --border-color: #27272a;
+  --icon-active: #fafafa;
+  --icon-inactive: #52525b;
+  --highlight-green: #1a2e1f;
 }
 
 /* Claude Design System — Light */
