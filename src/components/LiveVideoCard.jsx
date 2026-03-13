@@ -1,6 +1,6 @@
 import { liveVideo } from '../data/newsData';
 
-const LITERATA = "'Literata', Georgia, serif";
+const LITERATA = "'Rethink Sans', sans-serif";
 
 const LiveVideoCard = () => {
   return (

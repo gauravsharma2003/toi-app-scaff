@@ -1,7 +1,7 @@
 import { useNavigate } from 'react-router-dom';
 import { articleData } from '../data/newsData';
 
-const LITERATA = "'Literata', Georgia, serif";
+const LITERATA = "'Rethink Sans', sans-serif";
 
 const InlineAd = () => (
   <div className="my-6 -mx-4 bg-[var(--bg-surface)] px-4 py-3">

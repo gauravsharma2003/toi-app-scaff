@@ -1,6 +1,6 @@
 import { useNavigate } from 'react-router-dom';
 
-const LITERATA = "'Literata', Georgia, serif";
+const LITERATA = "'Rethink Sans', sans-serif";
 
 const DismissButton = () => (
   <button className="p-1 flex-shrink-0">

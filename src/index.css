@@ -1,9 +1,13 @@
 @import "tailwindcss";
 
+@theme {
+  --font-sans: 'Rethink Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
+
 /* Claude Design System — Dark (default) */
 :root {
-  --bg-primary: #18181b;
-  --bg-surface: #1f1f23;
+  --bg-primary: #2c2c2c;
+  --bg-surface: #474747;
   --bg-elevated: #27272a;
   --text-primary: #fafafa;
   --text-secondary: #a1a1aa;
@@ -53,7 +57,7 @@
   }
 
   body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    font-family: 'Rethink Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
     background-color: var(--bg-primary);
     color: var(--text-primary);
     overflow-x: hidden;
